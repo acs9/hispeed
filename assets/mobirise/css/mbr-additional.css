@@ -1246,6 +1246,52 @@ section.lazy-placeholder:after {
 .cid-sd6vKDy2nd .mbr-text P {
   text-align: center;
 }
+.cid-sg7N4ccWli {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #cccccc;
+}
+.cid-sg7N4ccWli h4 {
+  width: 85%;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.cid-sg7N4ccWli p {
+  color: #767676;
+}
+.cid-sg7N4ccWli .card-wrapper {
+  border-top: 1px solid #efefef;
+  background-color: #cccccc;
+  position: relative;
+  justify-content: unset;
+}
+.cid-sg7N4ccWli .card-wrapper .card-box {
+  padding: 2rem;
+  width: 100%;
+}
+.cid-sg7N4ccWli .card-wrapper .card-box .top-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cid-sg7N4ccWli .card-wrapper .card-box .bottom-line {
+  width: 85%;
+}
+@media (max-width: 767px) {
+  .cid-sg7N4ccWli .card-wrapper .card-box .bottom-line {
+    width: 100%;
+  }
+  .cid-sg7N4ccWli .card-wrapper .card-box .bottom-line p {
+    text-align: center;
+    margin: 1rem 0 0 0;
+  }
+}
+.cid-sg7N4ccWli H2 {
+  text-align: center;
+}
+.cid-sg7N4ccWli .mbr-section-subtitle {
+  text-align: center;
+}
 .cid-s32gErmDMn {
   padding-top: 120px;
   padding-bottom: 120px;
