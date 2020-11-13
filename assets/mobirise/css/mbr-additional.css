@@ -1123,13 +1123,15 @@ section.lazy-placeholder:after {
 }
 .cid-s32g9mJ9e8 .form-control,
 .cid-s32g9mJ9e8 .form-control:focus {
-  background: #efefef;
-  border: 1px solid #ffffff;
+  background: #f9f6ce;
+  border: 1px solid #787324;
 }
 .cid-s32g9mJ9e8 .form-container {
   transition: all .2s;
-  border: 1px solid #ffffff;
+  border: 1px solid #787324;
   padding: 1rem;
+  background: linear-gradient(#efefef, #4f4943);
+  border: none;
 }
 .cid-s32g9mJ9e8 textarea.form-control {
   min-height: 188px;
@@ -1246,56 +1248,94 @@ section.lazy-placeholder:after {
 .cid-sd6vKDy2nd .mbr-text P {
   text-align: center;
 }
-.cid-sg7N4ccWli {
-  padding-top: 90px;
-  padding-bottom: 15px;
-  background-color: #cccccc;
+.cid-sgcj7TZqQE {
+  padding-top: 45px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
 }
-.cid-sg7N4ccWli h4 {
-  width: 85%;
-  font-weight: 500;
-  margin-bottom: 0;
-}
-.cid-sg7N4ccWli p {
+.cid-sgcj7TZqQE .mbr-section-subtitle {
   color: #767676;
 }
-.cid-sg7N4ccWli .card-wrapper {
-  border-top: 1px solid #efefef;
-  background-color: #cccccc;
-  position: relative;
-  justify-content: unset;
+.cid-sgcj7TZqQE .container-table {
+  margin: 0 auto;
 }
-.cid-sg7N4ccWli .card-wrapper .card-box {
-  padding: 2rem;
-  width: 100%;
+.cid-sgcj7TZqQE .scroll {
+  overflow-x: auto;
+  padding: 0;
 }
-.cid-sg7N4ccWli .card-wrapper .card-box .top-line {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.cid-sgcj7TZqQE .dataTables_wrapper {
+  display: block;
 }
-.cid-sg7N4ccWli .card-wrapper .card-box .bottom-line {
-  width: 85%;
+.cid-sgcj7TZqQE .dataTables_wrapper .search {
+  margin-bottom: .5rem;
 }
-@media (max-width: 767px) {
-  .cid-sg7N4ccWli .card-wrapper .card-box .bottom-line {
-    width: 100%;
-  }
-  .cid-sg7N4ccWli .card-wrapper .card-box .bottom-line p {
+.cid-sgcj7TZqQE .dataTables_wrapper .table {
+  overflow-x: auto;
+}
+.cid-sgcj7TZqQE table {
+  width: 100% !important;
+  margin-top: 6px;
+  border: 1px solid #cccccc;
+  margin-bottom: 0;
+}
+.cid-sgcj7TZqQE table th {
+  border-top: none;
+  transition: all .2s;
+  border-bottom: none;
+}
+.cid-sgcj7TZqQE table th:hover {
+  background: #cccccc;
+  color: #000000;
+}
+.cid-sgcj7TZqQE table td {
+  border-top: 1px solid #cccccc;
+}
+.cid-sgcj7TZqQE table.table {
+  background: #efefef;
+}
+.cid-sgcj7TZqQE .dataTables_filter {
+  text-align: right;
+  margin-bottom: .5rem;
+}
+.cid-sgcj7TZqQE .dataTables_filter label {
+  display: inline;
+  white-space: normal !important;
+}
+.cid-sgcj7TZqQE .dataTables_filter input {
+  display: inline;
+  width: auto;
+  margin-left: .5rem;
+  border-radius: 100px;
+  padding-left: 1rem;
+}
+.cid-sgcj7TZqQE .dataTables_info {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  white-space: normal !important;
+  text-align: left;
+  color: #879a9f;
+}
+@media (max-width: 992px) {
+  .cid-sgcj7TZqQE .dataTables_filter {
     text-align: center;
-    margin: 1rem 0 0 0;
   }
 }
-.cid-sg7N4ccWli H2 {
-  text-align: center;
+@media (max-width: 350px) {
+  .cid-sgcj7TZqQE .dataTables_filter {
+    text-align: center;
+  }
+  .cid-sgcj7TZqQE .dataTables_filter input {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
 }
-.cid-sg7N4ccWli .mbr-section-subtitle {
-  text-align: center;
+.cid-sgcj7TZqQE .body-item {
+  text-align: left;
 }
 .cid-sg7RzoLqO0 {
-  padding-top: 0px;
-  padding-bottom: 60px;
-  background-color: #cccccc;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
 }
 .cid-sg7RzoLqO0 .mbr-text,
 .cid-sg7RzoLqO0 blockquote {
@@ -1304,10 +1344,13 @@ section.lazy-placeholder:after {
 .cid-sg7RzoLqO0 .mbr-text P {
   text-align: center;
 }
+.cid-sg7RzoLqO0 .mbr-text {
+  color: #879a9f;
+}
 .cid-s32gErmDMn {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-color: #ffffff;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #cccccc;
 }
 .cid-s32gErmDMn h3 {
   text-align: center;
@@ -1357,13 +1400,13 @@ section.lazy-placeholder:after {
   background: rgba(206, 206, 206, 0.4);
 }
 .cid-s32gErmDMn progress::-webkit-progress-value {
-  background: #149dcc;
+  background: #22c946;
 }
 .cid-s32gErmDMn progress[value]::-moz-progress-bar {
-  background: #149dcc;
+  background: #22c946;
 }
 .cid-s32gErmDMn progress::-ms-fill {
-  background: #149dcc;
+  background: #22c946;
 }
 .cid-s32gErmDMn .progress1 .progressbar-number:before {
   content: '100';
@@ -1375,7 +1418,7 @@ section.lazy-placeholder:after {
   content: '100';
 }
 .cid-s32gErmDMn .progress4 .progressbar-number:before {
-  content: '70';
+  content: '100';
 }
 .cid-s32gErmDMn .progress5 .progressbar-number:before {
   content: '60';
